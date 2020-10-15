@@ -14,7 +14,7 @@ If you have more than one parameter, you have to put them in parenthesis in an a
 
 const setAge = (person, newAge) => person.age = newAge;
 
-const giveBirthday = (person) => {
+const giveBirthday = person => {
   let ageExists = 'age' in person;
 
   if(!!ageExists) {
